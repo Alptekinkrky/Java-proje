@@ -30,6 +30,8 @@ public class Product {
 	@Column(name="quantity_per_unit")
 	private String quantityPerUnit;
 	
+	public Product() {}
+	
 	
 	public Product(int id, int categoryİd, String productName, double unitPrice, short unitsInStock,
 			String quantityPerUnit) {
